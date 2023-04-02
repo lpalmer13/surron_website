@@ -96,8 +96,6 @@ body {
 }
 
 .tires {
-    grid-column: 2/3;
-    grid-row: 1/2;
     margin-top: -900px;
     color: white;
     
