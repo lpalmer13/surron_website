@@ -172,7 +172,7 @@ footer a:hover {
 }
 
 @media screen and (max-width: 900px) {
-    #my-surron, .home-grid {
+    #wheels-and-tires, .home-grid {
         display: block;
         height: auto;
     }
@@ -183,10 +183,10 @@ footer a:hover {
         display: block;
         padding: 15px;
     }
-    #my-surron {
+    #wheels-and-tires {
         margin-top: 0;
     }
-    #hero-msg {
+    #about-msg {
         margin-top: 0;
     }
     #hero-msg h4 {
