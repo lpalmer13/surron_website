@@ -6,7 +6,7 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #FFFFFF;
-  --secondary-color: #EDF4ED;
+  --secondary-color: #000000;
   --accent1-color: #0A81D1;
   --accent2-color: #CAF0F8;
 
@@ -82,15 +82,19 @@ p {
 }
 
 .primary {
+  color: black;
   background-color: var(--primary-color);
 }
 .secondary {
+  color: white;
   background-color: var(--secondary-color);
 }
 .accent1 {
+  color: black;
   background-color: var(--accent1-color);
 }
 .accent2{
+  color: black;
   background-color: var(--accent2-color);
 }
 
