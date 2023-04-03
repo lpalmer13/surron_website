@@ -90,8 +90,30 @@ body {
     width: 100%;
 }
 
-#battery-66v-img {
-    width: 100%;
+.battery-upgrades {
+    margin-top: -945px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.batteries-60v {
+    margin-top: 500px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: #0A81D1;
+}
+
+#batteries-66v-img {
+    margin-top: 0px;
+    width: 50%;
+}
+
+.batteries-66v {
+    margin-top: 400px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 #battery-72v-img {
