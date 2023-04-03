@@ -11,22 +11,39 @@
 <body>
     <div id="content">
 <header>
-    <nav>
-        <a href="index.html">Home</a>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
         <a href="wheels_and_tires.html">Wheels and Tires</a>
         <a href="powertrain.html">Powertrain</a>
         <a href="site-plan.html">Site Plan</a>
         <a href="contactus.html">Contact Us</a>
-    </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
 </header>
 <div id="powertrain">
     <div id="powertrain-box">
         <img src="" alt="">
     </div>
+    <section id="about-msg">
+        <h1 class="home-title">Sur Ron Mod Guide</h1>
+    </section>
 </div>
 <main class="home-grid">
     <section class="battery_upgrades">
         <h2>Battery Upgrades</h2>
+        <P>An upgraded battery will give the Sur Ron much more power, speed, and range based on your controller setup. </P>
     </section>
     <section class="60v_batteries">
         <h3>60v Batteries</h3>
@@ -51,7 +68,7 @@
         <h2>Controller Upgrades</h2>
     </section>
     <section class="controllers">
-        <P>An upgraded controller gives the Sur Ron a lot more power when paired with an upgraded batter. This will double or even triple the speed of your bike. They also give you the ability to tune the power levels in sport and eco mode to your liking. As well as increasing, decreasing, or disabling the regenerative braking. Aftermarket controllers give you the ability to run an upgraded 60 or 72 volt battery for more power, top speed, and range. Check out the battery page for more information on battery upgrade.</P>
+        <P>An upgraded controller gives the Sur Ron a lot more power when paired with an upgraded battery. This will double or even triple the speed of your bike. They also give you the ability to tune the power levels in sport and eco mode to your liking. As well as increasing, decreasing, or disabling the regenerative braking. Aftermarket controllers give you the ability to run an upgraded 60 or 72 volt battery for more power, top speed, and range. Check out the battery page for more information on battery upgrade.</P>
     </section>
     <section class="controller_companies">
         <h3>Companies</h3>
