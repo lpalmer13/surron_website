@@ -10,13 +10,26 @@
 <body>
     <div id="content">
 <header>
-    <nav>
-        <a href="index.html">Home</a>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
         <a href="wheels_and_tires.html">Wheels and Tires</a>
         <a href="powertrain.html">Powertrain</a>
         <a href="site-plan.html">Site Plan</a>
         <a href="contactus.html">Contact Us</a>
-    </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
 </header>
 <div id="my-surron">
     <div id="my-surron-box">
