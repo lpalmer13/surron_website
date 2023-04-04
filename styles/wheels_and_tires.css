@@ -102,9 +102,8 @@ body {
 }
 
 .tires {
-    margin-top: -900px;
-    color: white;
-    
+    margin-top: -50%;
+    color: white;    
 }
 
 .charged-cycle-works {
