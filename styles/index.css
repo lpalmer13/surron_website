@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+a {
+    color: black;
+}
+
 header {
     display: grid;
     grid-template-columns: auto;
